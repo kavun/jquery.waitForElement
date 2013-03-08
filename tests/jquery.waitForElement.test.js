@@ -51,7 +51,7 @@ asyncTest("finds an element that already exists", 1, function() {
 		ok(true);
 		start();
 	}).fail(function () {
-		of(false);
+		ok(false);
 		start();
 	});
 });
@@ -66,7 +66,7 @@ asyncTest("finds an element that exists after the call but before the threshold"
 		ok(true);
 		start();
 	}).fail(function () {
-		of(false);
+		ok(false);
 		start();
 	});
 });
