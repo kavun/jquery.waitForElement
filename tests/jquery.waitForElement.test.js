@@ -1,7 +1,17 @@
-
 test( "waitForElement returns a Deferred object", function () {
+
+	expect(Object.keys($.Deferred().promise()).length);
+
   	var d = $.waitForElement();
-  	equal( String(d.promise), String($.Deferred().promise().promise), String(d.promise));
+
+  	for (var fn in d) {
+  		if ($.Deferred().promise()[fn]) {
+  			ok(true, 'key "' + fn + '" exists');
+  		} else {
+  			of(false, 'key "' + fn + '" not in returned $.Deferred().promise()')
+  		}
+  	}
+
 });
 
 module('async: passing senarios', {
@@ -130,5 +140,5 @@ asyncTest("fails finding an element by tag name", 1, function() {
 		ok(true);
 		start();
 	});
-	
+
 });
