@@ -1,6 +1,6 @@
-/*  resolves if element is visible
-    returns a jQuery.Deferred().promise()
-    fails if it processes longer than threshold (default: 1000ms) */
+/*! jquery.waitForElement - v0.1.0 - 2013-03-14
+* https://github.com/kavun/jquery.waitForElement
+* Copyright (c) 2013 ; Licensed MIT */
 ;(function ($, undefined) {
     $.waitForElement = function (elementID, thresh) {
 

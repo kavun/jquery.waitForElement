@@ -1,0 +1,23 @@
+{
+  "name": "jquery.waitForElement",
+  "title": "jquery.waitForElement",
+  "description": "A jQuery plugin that resolves a jQuery Deferred Promise if an element is found by ID before a threhold time limit",
+  "version": "0.1.0",
+  "homepage": "https://github.com/kavun/jquery.waitForElement",
+  "author": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kavun/jquery.waitForElement.git"
+  },
+  "bugs": "https://github.com/kavun/jquery.waitForElement/issues",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/kavun/jquery.waitForElement/blob/master/LICENSE-MIT"
+    }
+  ],
+  "dependencies": {
+    "jquery": "*"
+  },
+  "keywords": []
+}
