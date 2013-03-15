@@ -1,6 +1,6 @@
-/*! jquery.waitForElement - v0.1.0 - 2013-03-14
+/*! jquery.waitForElement - v0.1.0 - 2013-03-15
 * https://github.com/kavun/jquery.waitForElement
-* Copyright (c) 2013 ; Licensed MIT */
+* Copyright (c) 2013 kavun; Licensed MIT */
 ;(function ($, undefined) {
     $.waitForElement = function (elementID, thresh) {
 
